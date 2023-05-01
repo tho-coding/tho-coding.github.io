@@ -1,0 +1,81 @@
+@charset "UFT-8";
+
+:root {
+    --cor1: #18e2db79;
+    --cor2: #189997;
+    --cor3: #60E0DC;
+    --cor4: #66EDE9;
+    --cor5: #56C7C3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
+
+
+body {
+    background-image: linear-gradient(to left, var(--cor2), var(--cor1));
+}
+
+main {
+    
+    margin: auto;
+    max-width: 1000px;
+    border-radius: 10px;   
+}
+
+main h1 {
+    background-image: linear-gradient(to right, transparent, var(--cor4), transparent);
+    text-align: center;
+    border-top-left-radius: 10px;
+    box-shadow: 1px 3px 3px black;
+    
+}
+
+p {
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;   
+    
+}
+
+h2 {
+    background-image: linear-gradient(to right, transparent, var(--cor4), transparent);
+    text-align: center;
+    box-shadow: 1px 3px 3px black;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
